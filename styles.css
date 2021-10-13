@@ -70,7 +70,11 @@ body {
   }
 }
 
+@media (min-width: 769px) {
+}
+
 .title {
+  max-width: 620px;
   margin: 39px 20px;
   font-family: "Roboto", sans-serif;
   font-size: 55px;
@@ -79,23 +83,40 @@ body {
 
 @media (min-width: 769px) {
   .title {
-    text-align: justify;
-    padding: 106px 0 20px 40px;
+    display: inline-block;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 850px) {
+  .title {
+    margin: 160px 10px;
   }
 }
 
 .img-dos {
   width: 280px;
-  height: 300px;
+  height: 293px;
   display: block;
-  margin: auto;
+  margin: 0 auto;
 }
 
 @media (min-width: 769px) {
   .img-dos {
-    width: 435px;
-    height: 395px;
-    margin: -196px 0px 0px 900px;
+    width: 300px;
+    height: 335px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+}
+@media (min-width: 850px) {
+  .img-dos {
+    width: 335px;
+    height: 335px;
+    display: block;
+    margin: -320px 750px;
   }
 }
 
@@ -105,6 +126,11 @@ body {
   width: 100%;
   height: 538px;
   background-color: black;
+}
+
+@media (min-width: 768px) {
+  .section-one-contenedor {
+  }
 }
 
 .titulo-sec-one {
@@ -118,8 +144,7 @@ body {
 
 @media (min-width: 769px) {
   .titulo-sec-one {
-    padding-top: 100px;
-    margin-left: 250px;
+    margin-left: 200px;
   }
 }
 
@@ -135,24 +160,23 @@ body {
   .parrafo-sec-one {
     height: 165px;
     width: 532px;
-    position: absolute;
-    left: 40%;
+    margin-left: 400px;
   }
 }
 
 .img-three {
   width: 80px;
   height: 80px;
-  display: block;
-  margin: 90px auto;
+  display: inline-block;
+  margin: -200px 270px;
 }
 
 @media (min-width: 769px) {
   .img-three {
     width: 212px;
     height: 212px;
-    margin-left: 270px;
-    margin-top: -120px;
+    margin: 50px;
+    margin-top: -230px;
   }
 }
 /* SECCIÓN SERVICES */
@@ -270,7 +294,6 @@ body {
 
 @media (min-width: 769px) {
   .section-message {
-    padding: 90px;
   }
 }
 
@@ -284,8 +307,8 @@ body {
 
 @media (min-width: 769px) {
   .title-sec-message {
-    position: absolute;
-    left: 22%;
+    display: inline-block;
+    margin-right: 600px;
   }
 }
 
