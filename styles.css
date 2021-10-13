@@ -340,6 +340,13 @@ body {
   background-color: #dbdbdb;
 }
 
+@media (min-width: 769px) {
+  .footer-section {
+    background: url(./png/puntos-footer.png);
+    background-color: #c4c4c4;
+  }
+}
+
 .img-five {
   height: 71px;
   width: 77px;
