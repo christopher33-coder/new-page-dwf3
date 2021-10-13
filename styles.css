@@ -1,0 +1,413 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* MAIN */
+
+.main {
+  width: 100%;
+  height: 594px;
+  background-image: url("./png/puntitos.png");
+}
+
+@media (min-width: 769px) {
+  .main {
+    height: 616px;
+  }
+}
+
+.contenedor-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 19px 17px;
+}
+
+.img {
+  width: 54px;
+  height: 50px;
+}
+
+@media (min-width: 769px) {
+  .img {
+    width: 95px;
+    height: 109px;
+  }
+
+  .contenedor-barritas {
+    width: 428px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 30px;
+  }
+}
+
+.barritas {
+  background-color: black;
+  width: 36px;
+  height: 6px;
+  margin: 7px;
+  color: transparent;
+}
+
+@media (min-width: 769px) {
+  .barritas {
+    color: black;
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    width: 90px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.title {
+  margin: 39px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .title {
+    text-align: justify;
+    padding: 106px 0 20px 40px;
+  }
+}
+
+.img-dos {
+  width: 280px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+@media (min-width: 769px) {
+  .img-dos {
+    width: 435px;
+    height: 395px;
+    margin: -196px 0px 0px 900px;
+  }
+}
+
+/* SECCIÓN UNO */
+
+.section-one {
+  width: 100%;
+  height: 538px;
+  background-color: black;
+}
+
+.titulo-sec-one {
+  margin-top: -1.1px;
+  padding: 50px 52px;
+  font-size: 42px;
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (min-width: 769px) {
+  .titulo-sec-one {
+    padding-top: 100px;
+    margin-left: 250px;
+  }
+}
+
+.parrafo-sec-one {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 20px;
+  color: white;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .parrafo-sec-one {
+    height: 165px;
+    width: 532px;
+    position: absolute;
+    left: 40%;
+  }
+}
+
+.img-three {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 90px auto;
+}
+
+@media (min-width: 769px) {
+  .img-three {
+    width: 212px;
+    height: 212px;
+    margin-left: 270px;
+    margin-top: -120px;
+  }
+}
+/* SECCIÓN SERVICES */
+
+.services {
+  width: 100%;
+  height: 1375px;
+  margin: 0 auto;
+}
+
+@media (min-width: 769px) {
+  .services {
+    height: 604px;
+  }
+}
+
+.contenedor-services {
+  padding: 1px;
+}
+
+@media (min-width: 769px) {
+  .contenedor-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 5px;
+    margin-top: 50px;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .section-services-one {
+    grid-column: 1/2;
+    grid-row: 1/4;
+  }
+
+  .section-services-two {
+    grid-column: 3;
+    grid-row: 1/4;
+  }
+
+  .section-services-third {
+    grid-column: 3/4;
+    grid-row: 1/4;
+  }
+}
+
+.title-service {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 70px auto;
+}
+
+@media (min-width: 769px) {
+  .title-service {
+    margin: 30px auto;
+  }
+}
+
+.title-two-services {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 900;
+}
+
+@media (min-width: 769px) {
+  .title-two-services {
+    font-size: 22px;
+  }
+}
+
+.parrafo-services {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+@media (min-width: 769px) {
+  .parrafo-services {
+    width: 262px;
+    height: 117px;
+    font-size: 14px;
+    font-weight: 900;
+    margin: 20px auto;
+  }
+  .p-services-one {
+    padding: 27px;
+  }
+  .p-services-third {
+    padding: 27px;
+  }
+}
+
+.img-four {
+  width: 138px;
+  height: 128px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+/* SECCIÓN MENSAJE */
+
+.section-message {
+  width: 100%;
+  height: 660px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .section-message {
+    padding: 90px;
+  }
+}
+
+.title-sec-message {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (min-width: 769px) {
+  .title-sec-message {
+    position: absolute;
+    left: 22%;
+  }
+}
+
+.label-text {
+  display: block;
+  margin-left: -260px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.input-text {
+  background-color: white;
+  width: 335px;
+  height: 45px;
+  margin: 15px;
+  border: solid 3px #2c2c2c;
+}
+
+.mensaje {
+  width: 335px;
+  height: 113px;
+  margin-top: 10px;
+  border: solid 3px #2c2c2c;
+  background-color: white;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.boton {
+  width: 335px;
+  height: 45px;
+  background-color: #ffd953;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+/* FOOTER */
+
+.footer-section {
+  width: 100%;
+  height: 493px;
+  background-color: #dbdbdb;
+}
+
+.img-five {
+  height: 71px;
+  width: 77px;
+  margin: 0 16px;
+  margin-top: 10px;
+}
+
+@media (min-width: 769px) {
+  .img-five {
+    width: 112px;
+    height: 103px;
+    margin: 0 40px;
+    margin-top: 80px;
+  }
+}
+
+.parrafo-final {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin: 10px 12px;
+}
+
+@media (min-width: 769px) {
+  .parrafo-final {
+    margin: 0px 35px;
+  }
+}
+
+.red-textos {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+@media (min-width: 769px) {
+  .github-text {
+    padding: 0px 22px;
+  }
+}
+
+.contenedor-redes {
+  padding: 50px 0;
+}
+@media (min-width: 769px) {
+  .contenedor-redes {
+    padding: 0;
+  }
+}
+
+.img-red {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  margin: 5px 1px;
+}
+
+@media (min-width: 769px) {
+  .img-red {
+    justify-content: flex-end;
+    margin: 5px 40px;
+  }
+  #github {
+    margin: 5px -10px;
+  }
+}
+
+.img-redes {
+  width: 29px;
+  height: 29px;
+  margin: 0 10px;
+}
