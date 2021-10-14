@@ -76,6 +76,7 @@ body {
 }
 
 .title {
+  max-width: 620px;
   margin: 39px 20px;
   font-family: "Roboto", sans-serif;
   font-size: 55px;
