@@ -94,6 +94,7 @@ body {
 .img-dos {
   width: 280px;
   height: 294px;
+  border-bottom:black;
   display: block;
   margin: 0 auto;
 }
