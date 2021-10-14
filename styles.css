@@ -95,7 +95,7 @@ body {
   width: 280px;
   height: 294px;
   display: block;
-  margin: 0px auto;
+  margin: 1px auto;
 }
 
 @media (min-width: 769px) {
