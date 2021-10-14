@@ -93,10 +93,9 @@ body {
 
 .img-dos {
   width: 280px;
-  height: 295px;
-  border-bottom:black;
+  height: 294px;
   display: block;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 @media (min-width: 769px) {
